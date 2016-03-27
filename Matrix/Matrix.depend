@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1455754358 source:d:\fortran\matrix\main.f95
+
+1122979490 source:d:\fortran\matrix\decomp.f
+
+1122985840 source:d:\fortran\matrix\solve.f
+
+1122979490 source:d:\computational_math\matrix\decomp.f
+
+1122985840 source:d:\computational_math\matrix\solve.f
+

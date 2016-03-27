@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1122985732 source:d:\computational_math\diff_system(rkf45)\rkf45.f
+
+1455915640 source:d:\computational_math\diff_system(rkf45)\main.f95
+
+1122985758 source:d:\computational_math\diff_system(rkf45)\rkfs.f
+
+1122985202 source:d:\computational_math\diff_system(rkf45)\fehl.f
+
+1122985202 source:d:\computational_math\diff_system_rkf45\fehl.f
+
+1122985732 source:d:\computational_math\diff_system_rkf45\rkf45.f
+
+1455920379 source:d:\computational_math\diff_system_rkf45\rkfs.f
+
+1457134451 source:d:\computational_math\diff_system_rkf45\main.f95
+
