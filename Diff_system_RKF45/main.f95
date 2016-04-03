@@ -1,5 +1,6 @@
 
-      SUBROUTINE FUN(T,Y,YP)
+
+SUBROUTINE FUN(T,Y,YP)
       REAL T,Y(2),YP(2)
       YP(1)=-130.0*Y(1)+900.0*Y(2)+exp(-10.0*T)
       YP(2)=30.0*Y(1)-300.0*Y(2)+log(1.0+100.0*T**2)
@@ -19,8 +20,12 @@
       TPRINT=0.0075
       IFLAG=1
       TOUT=T
+      OPEN(0, FILE = 'RKF45.txt')
    10 CALL RKF45(FUN,NEQN,Y,T,TOUT,RELERR,ABSERR,IFLAG,WORK,IWORK)
-      PRINT 11,T,Y(1),Y(2)
+      WRITE(0, 11) T,Y(1),Y(2)
+	  WRITE(1, *) T
+	  WRITE(2, *) Y(1)
+	  WRITE(3, *) Y(2)
       GO TO (80,20,30,40,50,60,70,80),IFLAG
    20 TOUT=TPRINT+T
       IF(T.LT.TFINAL) GO TO 10
@@ -47,3 +52,5 @@
    71 FORMAT(' Many outlets ')
    81 FORMAT(' Irregular call ')
       end
+
+
