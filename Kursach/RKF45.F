@@ -52,7 +52,7 @@ C     F       -ÏOÄÏPOÃPAMMA F(T,Y,YP) ÄËß BÛ×ÈCËEHÈß
 C              ÏPOÈÇBOÄHÛX YP(I)=DY(I)/DT
 C     NEQN    -×ÈCËO ÈHTEÃPÈPÓEMÛX ÓPABHEHÈÉ
 C     Y(*)    -PEØEHÈE B TO×KE T
-C     T       -HEÇABÈCÈMAß ÏEPEMEHHAßGO TO (80,20,30,40,50,60,70,80),IFLAG
+C     T       -HEÇABÈCÈMAß ÏEPEMEHHAß
 C     TOUT    -TO×KA BÛXOÄA,B KOTOPOÉ HÓÆHO OÏPEÄEËÈTÜ
 C              ÇHA×EHÈE PEØEHÈß
 C     RELERR  -ÃPAHÈÖA OTHOCÈTEËÜHOÉ ÏOÃPEØHOCTÈ
