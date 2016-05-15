@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="Kursach" />
+		<Option title="Bubbles" />
 		<Option pch_mode="2" />
 		<Option compiler="gfortran" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/Kursach" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/Bubbles" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gfortran" />
@@ -16,7 +16,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/Kursach" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/Bubbles" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gfortran" />
@@ -41,6 +41,9 @@
 			<Option weight="0" />
 		</Unit>
 		<Unit filename="RKFS.F">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="ZEROIN.F">
 			<Option weight="0" />
 		</Unit>
 		<Unit filename="main.f95">

@@ -2,7 +2,7 @@
 SUBROUTINE FUN(T,Y,YP)
       REAL E,Y(2),YP(2)
       COMMON /cm1/E
-      YP(1)=(-1+E*Y(2)*Y(2))*Y(2)
+      YP(1)=(-1-E*Y(2)*Y(2))*Y(2)
       YP(2)= Y(1)
       RETURN
       END
